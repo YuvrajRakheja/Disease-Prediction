@@ -148,7 +148,7 @@ lstig=lstig[::-1]
 for i in range(len(uniquesymptoms)):
   uniquesymptoms[i]=uniquesymptoms[i].replace(" ","")
 
-data = pd.read_csv("D:\Medical-Diagnosis-App-main\Medical-Diagnosis-App-main\symptom_precaution.csv")
+data = pd.read_csv("C:\Projects\Disease-Prediction\symptom_precaution.csv")
 
 put_text("Enter the symptoms you are facing, separated by a space..\n")
 df1 = df
